@@ -1,11 +1,12 @@
 import React from 'react';
-// import { useEffect } from 'react';
-import Button from '../../component/common/Button/Button';
 import styled from 'styled-components';
 import Intro from '../../component/intro/Intro'
-// import Welcome from '';
-// import Service from '';
-// import Footer from '';
+import Welcome from '../../component/welcome/Welcome';
+import Service from '../../component/service/Service';
+import Service2 from '../../component/service/Service2';
+import Service3 from '../../component/service/Service3';
+import Footer from '../../component/footer/Footer';
+import { Button, ButtonToolbar } from 'react-bootstrap';
 
 const Wrapper = styled.div``;
 
@@ -14,10 +15,11 @@ const HomePage = () => {
     <div>
         <Wrapper>
             <Intro />
-            <Button>버튼</Button>
-            {/* <Welcome /> */}
-            {/* <Service /> */}
-            {/* <Footer /> */}
+            <Welcome />
+            <Service />
+            <Service2 />
+            <Service3 />
+            <Footer />
         </Wrapper>
     </div>
 

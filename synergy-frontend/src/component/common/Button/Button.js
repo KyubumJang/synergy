@@ -7,20 +7,20 @@ const StyledButton = styled.button`
   border-radius: 4px;
   font-size: 1rem;
   font-weight: bold;
-  padding: 0.25rem 1rem;
+  padding: 1rem 1rem;
   color: white;
   outline: none;
   cursor: pointer;
 
   background: ${palette.indigo};
   &:hover {
-    background: ${palette.gray[1]};
+    background: ${palette.gray[6]};
   }
   ${(props) =>
     props.fullWidth &&
     css`
-      padding-top: 0.75rem;
-      padding-bottom: 0.75rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
       width: 100%;
       font-size: 1.125rem;
     `}
