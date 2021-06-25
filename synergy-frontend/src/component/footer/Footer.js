@@ -38,7 +38,7 @@ import {
                 </FooterLinks>
                 <FooterLinks>
                   <FooterLinkTitle>회사소개</FooterLinkTitle>
-                  <FooterLink to="/introduce">Our Cloud</FooterLink>
+                  <FooterLink to="/introduce">Our Copany</FooterLink>
                 </FooterLinks>
               </FooterLinksWrapper>
             </FooterLinkContainer>
