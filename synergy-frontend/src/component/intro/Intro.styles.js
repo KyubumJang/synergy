@@ -65,13 +65,13 @@ export const IntroSubTitle = styled.h2`
   font-size: clamp(2rem, 2vw, 4rem);
   font-weight: 400;
   letter-spacing: 1rem;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 `;
 
 export const IntroText = styled.h3`
   font-size: clamp(2rem, 2.5vw, 3rem);
   font-weight: 400;
-  padding: 1rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   @media only screen and (max-width: 375px) {
     padding: 1.5rem 0;
   }

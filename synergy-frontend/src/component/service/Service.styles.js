@@ -7,6 +7,7 @@ export const ServiceContainer = styled.section`
   width: 100%;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  margin-left: 3rem;
 `;
 
 export const ServiceContainer2 = styled.section`
